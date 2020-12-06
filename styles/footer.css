@@ -1,4 +1,16 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-content-container {
+  font-size: 1em;
+  min-width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.footer-content {
+  margin: 0 3em;
 }
