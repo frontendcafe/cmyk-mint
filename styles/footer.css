@@ -3,6 +3,11 @@
   padding: 0px;
 }
 
+footer {
+  background-color: rgba(52, 211, 153);
+  color: black;
+}
+
 .footer-content-container {
   font-size: 1em;
   min-width: 90vw;
@@ -13,4 +18,14 @@
 
 .footer-content {
   margin: 0 3em;
+}
+
+.home-rrss-container {
+  display: flex;
+  justify-content: center;
+}
+
+.home-rrss-container a img {
+  height: 50px;
+  margin: 0 1em;
 }
