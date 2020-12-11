@@ -5,11 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mint</title>
     <link rel="stylesheet" href="normalize.css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body> 
    <header>
-     <div id="menu-nav"> </div>
+    <div id="menu-nav"> 
+      <nav class="navbar">  
+        <!-- Search and logo-->  
+        <div class="search-container">
+          <a class="logo" href="#"><img src="./assets/logo mint.png" /></a> 
+          <form class="search" action="#">
+            <div class="search-container">
+              <input type="text" placeholder="Buscar...">            
+              <button type="submit"></button> 
+            </div>                          
+          </form>                  
+          <div class="login">
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>             
+            </div>            
+          </div> 
+        </div>                     
+        <!-- Links -->                  
+        <ul class="nav-links" >  
+            <li>
+              <a href="#">CURSOS</a>
+            </li>
+            <li>
+              <a href="#">VIDEOS</a>
+            </li> 
+        </ul>
+      </nav>
+    </div>  
      <div id="banner"></div>
      <div id="search"></div>
    </header>
