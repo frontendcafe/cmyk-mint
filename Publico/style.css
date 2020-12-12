@@ -3,6 +3,25 @@
     margin: 0px;
 }
 
+img{
+    max-width: 100%;
+}
+
+h3{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 25px;
+}
+
+h3,
+p{
+    text-align: right;
+}
+
+
 /* NAVBAR */
 
 .navbar,
@@ -122,4 +141,19 @@
     .login {
         flex-direction: column-reverse;
     }    
+}
+
+/*Carousel*/
+section{
+    margin-top: 30px;
+}
+
+.carousel-caption{
+    bottom: 40%;
+    text-align: right;
+    
+}
+
+.iconos img{
+    width: 90%;
 }
