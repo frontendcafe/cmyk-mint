@@ -1,0 +1,155 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    max-width: 100%;
+}
+
+h3{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 25px;
+}
+
+h3,
+p{
+    text-align: right;
+}
+
+
+/* NAVBAR */
+
+.navbar,
+.search-container,
+.nav-links,
+.login {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    flex-direction: column;
+    height: auto;
+    width: 100%;    
+    position: fixed;
+    flex-wrap: wrap;
+    display: fixed;
+}
+.search-container {
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #21bf73;
+    padding: 0 20px;    
+}
+.search-container img{
+    padding-top: 10%;
+    height: 100px;
+    width: auto;
+}
+.nav-links {
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background-color: black;
+    color: whitesmoke;
+}
+.nav-links li {
+    margin: 0 10px;    
+    list-style: none;
+}
+.nav-links a {   
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav-links a:hover {
+    color: gray;
+}
+.search-container {
+    position: relative;
+}
+.search input { 
+    width: 50vw;    
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #4deb9e;
+}
+.search button {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    background-image: url("./images/search.svg");
+    background-color: transparent;
+    border: none;
+    height: 20px;
+    width: 20px;
+}
+.social-icons {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+.social-icons a {
+    color: white;
+    margin: 0 15px;
+}
+.login {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 400px) {
+    .search-container {
+        flex-direction: row;
+    }
+    .search input {        
+        width: 100px;
+    }
+    .search-container img{
+        height: 80px;
+        width: 80px;
+    }
+    .login {
+        flex-direction: column-reverse;
+    }      
+}
+@media only screen and (max-width: 800px) {
+    .search input {        
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .search input {        
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .search input {        
+        width: 100px;
+    }
+    .search-container img{
+        height: 80px;
+        width: 80px;
+    }
+    .login {
+        flex-direction: column-reverse;
+    }    
+}
+
+/*Carousel*/
+.carousel-caption{
+    bottom: 40%;
+    text-align: right;
+    
+}
+
+.iconos img{
+    width: 90%;
+}
