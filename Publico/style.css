@@ -1,32 +1,27 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
-img{
-    max-width: 100%;
-}
-
-h3{
-    font-size: 45px;
-    margin-bottom: 10px;
-}
-
-p{
-    font-size: 25px;
-}
-
-h3,
-p{
-    text-align: right;
-}
 
 
 /* NAVBAR */
 
-.navbar,
-.search-container,
-.nav-links,
+.navbar  {
+    flex-direction: column;
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.search-container {
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #21bf73;
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+}
+
+
 .login {
     display: flex;
     margin: 0;
@@ -40,32 +35,38 @@ p{
     flex-wrap: wrap;
     display: fixed;
 }
-.search-container {
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-    background-color: #21bf73;
-    padding: 0 20px;    
-}
-.search-container img{
+
+.search-container img {
     padding-top: 10%;
     height: 100px;
     width: auto;
 }
+
+
+
+
+
 .nav-links {
     align-items: center;
     justify-content: center;
-    height: 30px;
     background-color: black;
     color: whitesmoke;
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
 }
+
 .nav-links li {
-    margin: 0 10px;    
     list-style: none;
 }
-.nav-links a {   
+
+
+
+.nav-links a {
     text-decoration: none;
     color: whitesmoke;
+    padding: 10px;
+    display: inline-block;
 }
 .nav-links a:hover {
     color: gray;
@@ -73,8 +74,8 @@ p{
 .search-container {
     position: relative;
 }
-.search input { 
-    width: 50vw;    
+.search input {
+    width: 50vw;
     padding: 10px;
     border-radius: 30px;
     border: none;
@@ -92,12 +93,13 @@ p{
     height: 20px;
     width: 20px;
 }
+
 .social-icons {
     width: 150px;
     height: auto;
     margin-right: 20px;
 }
-.social-icons a {
+.social-icons a  {
     color: white;
     margin: 0 15px;
 }
@@ -144,9 +146,6 @@ p{
 }
 
 /*Carousel*/
-section{
-    margin-top: 30px;
-}
 
 .carousel-caption{
     bottom: 40%;
@@ -155,5 +154,6 @@ section{
 }
 
 .iconos img{
-    width: 90%;
+    width: 100px;
+    object-fit: contain;
 }
