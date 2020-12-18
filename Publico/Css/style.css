@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
 img{
     max-width: 100%;
 }
@@ -21,6 +25,12 @@ p{
     text-align: right;
 }
 
+h4{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #707070;
+}
 
 /* NAVBAR */
 
@@ -152,4 +162,14 @@ p{
 
 .iconos img{
     width: 90%;
+}
+
+/*Divisor*/
+h4::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: .3rem;
+    background-color: #707070;
+    margin-top: 1rem;
 }
