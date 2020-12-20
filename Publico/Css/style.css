@@ -46,9 +46,7 @@ h4{
     flex-direction: column;
     height: auto;
     width: 100%;    
-    position: fixed;
     flex-wrap: wrap;
-    display: fixed;
 }
 .search-container {
     align-items: center;
@@ -63,12 +61,17 @@ h4{
     width: auto;
 }
 .nav-links {
+    
     align-items: center;
     justify-content: center;
     height: 30px;
     background-color: black;
     color: whitesmoke;
+    width: 100%;
+
+
 }
+   
 .nav-links li {
     margin: 0 10px;    
     list-style: none;
@@ -76,12 +79,14 @@ h4{
 .nav-links a {   
     text-decoration: none;
     color: whitesmoke;
+    
 }
 .nav-links a:hover {
     color: gray;
 }
 .search-container {
     position: relative;
+    width: 100%;
 }
 .search input { 
     width: 50vw;    
