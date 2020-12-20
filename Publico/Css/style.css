@@ -178,3 +178,53 @@ h4::after{
     background-color: #707070;
     margin-top: 1rem;
 }
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%; 
+        
+    padding: 30px 20px;        
+}
+
+.carousel {    
+    border-radius: 30px;    
+    max-height: 500px;
+    overflow: hidden;
+    background-color: hsl(200, 20%, 70%);
+}
+.carousel-indicators li{
+    z-index: 2;    
+}
+.carousel-indicators li:hover{
+    cursor: pointer;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+}
+.card {  
+    width: 25%;
+    max-height: 420px;
+    margin: 30px 10px;
+    margin-bottom: 50px;
+    background-color: white;
+    transition: all, 0.5s;
+
+}
+.card h5 {
+    font-weight: 700;
+}
+
+.card:hover {
+    transform: scale(1.05) translateY(9px);   
+    transition: all, 0.5s;
+    box-shadow: 0 0 10px hsl(200, 20%, 30%);
+    box-shadow: 0 10px 30px hsl(200, 20%, 30%);
+}
+.card-img-top {       
+    object-fit: contain;
+    height: 150px;
+}
+
