@@ -240,3 +240,12 @@ h4::after{
     padding: 7px;
     border: 9px solid #aaa;
 }
+/*/footer*/
+footer .search-container {
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    margin-bottom: 0;
+}
