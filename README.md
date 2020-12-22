@@ -9,8 +9,7 @@ Buscador
 Menu( books y videos)
 Categorias
 Body 
-Vista previa de un curso al seleccionarlo(foto, resumen, duración y nivel)
-Link para compartir en twitter y linkedin (con referencia de la pag?) 
+Vista previa de un curso al seleccionarlo (foto, resumen, duración y nivel)
 
 Contenidos del elemento curso
 Titulo
@@ -23,11 +22,10 @@ Matriculación (Gratis o Pago)
 Certificacion 
 De donde sacamos la información?
 Vamos a tener un archivo data.json que tenga una lista de cursos con todos los elementos mencionados más arriba. Además una lista de cursos o libros (vamos a llamarlos “elementos”) que tenga una imagen larga con un texto
-br
 
 CURSOS academias
 -Platzi 
--Udemy ej: https://www.udemy.com/course/angular-2-fernando-herrera/
+-Udemy ej
 -Coursera
 -creahana
 -domestika 
@@ -36,4 +34,5 @@ CURSOS academias
 br
 
 CANALES DE YOUTUBE PROGRAMACIÓN.
-https://www.youtube.com/channel/UCX9NJ471o7Wie1DQe94RVIg
+Fazt news
+Codigo facilito
