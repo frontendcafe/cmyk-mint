@@ -1,4 +1,3 @@
-# cmyk-mint
 Idea
 Búsqueda de libros y cursos de programación en un json hardcodeado y usando la api de youtube.
 Logos tecnologías - linkeados a la documentación
