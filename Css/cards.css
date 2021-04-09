@@ -1,0 +1,42 @@
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    /* width: 25%; */
+    /* margin: 30px 10px; */
+    margin-bottom: 50px;
+    background-color: white;
+    transition: border 0.5s ease, background 0.5s ease;
+    cursor: pointer;
+}
+
+.card h5 {
+    font-weight: 700;
+}
+
+.card:hover {
+    border-color: #ddd;
+    background-color: #fafafa;
+}
+
+.card-img-top {
+    object-fit: contain;
+    height: 150px;
+}
+
+
+
+a.card-link {
+    color: #fd5e53;
+}
